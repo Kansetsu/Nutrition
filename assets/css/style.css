@@ -608,24 +608,18 @@ h2, h3, h4, h5, h6 {
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 20px;
-    color: #fff;
+    color: #5a656e;
   }
  
   .specials .details p:last-child {
     margin-bottom: 0;
   }
 
-  .specials .options{
-    padding-top: 50px;
-  }
 
   @media (max-width: 992px) {
     .specials .nav-link {
       border: 0;
       padding: 15px;
-    }
-    .specials .options{
-      padding-top: 0;
     }
   }
 
