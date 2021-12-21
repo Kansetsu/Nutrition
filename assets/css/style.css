@@ -361,11 +361,15 @@ h2, h3, h4, h5, h6 {
     background: url("../img/gabi-about.png") center center no-repeat;
     background-size: cover;
     min-height: 400px;
-    border-radius: 30px
+    border-radius: 30px;
+  }
+
+
   }
   @media (max-width: 991px) {
     .about .image {
       text-align: center;
+      border-radius: 0;
     }
     .about .image img {
       max-width: 80%;
@@ -374,6 +378,9 @@ h2, h3, h4, h5, h6 {
   @media (max-width: 667px) {
     .about .image img {
       max-width: 100%;
+    }
+    .about .image {
+      border-radius: 0;
     }
   }
   
