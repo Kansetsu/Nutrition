@@ -616,6 +616,20 @@ h2, h3, h4, h5, h6 {
   }
 
 
+.specials img{
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 0%), 0 6px 20px 0 rgb(0 0 0 / 0%);
+  max-width: 130% !important;
+  max-height: 250px;
+}
+
+@media (max-width: 992px){
+  .specials img{
+    max-width: 100% !important;
+    margin-bottom: 50px;
+  }
+}
+
   @media (max-width: 992px) {
     .specials .nav-link {
       border: 0;
