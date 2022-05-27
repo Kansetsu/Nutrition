@@ -1,17 +1,14 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
 :root {
     --colorPrimary: #ad837d;
     --colorPrimaryTransparent: #ad837d62;
     --colorSecundary: #dfc5c4;
 }
 
-@font-face {
-    font-family: "Nickainley";
-    src: url("/assets/font/Nickainley/Nickainley/Commercial/OTF/Nickainley-Normal.otf") format("opentype"),
-        url("/assets/font/Nickainley/Nickainley/Commercial/TTF/Nickainley-Normal.ttf") format("truetype");
-}
 body {
     font-family: "Open Sans", sans-serif;
     color: #5a656e;
@@ -30,7 +27,7 @@ a:hover {
 }
 
 h1 {
-    font-family: "Nickainley", sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     text-transform: none !important;
 }
 
